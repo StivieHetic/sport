@@ -1,0 +1,21 @@
+
+.container-table{
+	width: 100%;
+	margin: auto;
+	
+}
+.table-responsive{
+	width: 100%;
+	border-collapse: collapse;
+}
+.table-responsive th{
+	background: #00cc00;;
+    color: #fff;
+    font: bold 14px 'Roboto', Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid #fff;
+    padding: 12px 5;
+}
+.table-responsive td{
+	padding: 20px 5px;
+}
+

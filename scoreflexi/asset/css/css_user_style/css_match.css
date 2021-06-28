@@ -1,0 +1,227 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans:600,400&subset=latin,cyrillic);
+body{
+	background-color: #e9ebee;
+	font-family: 'open Sans', sans-serif;
+}
+textarea, select{
+	font-size: 12px;
+	border-top:none;
+	border-left: none;
+	border-bottom: none;
+}
+textarea{
+	width: 90%;
+	resize: none;
+	overflow-y: hidden;
+	padding-left: 4px;
+    padding-top: 1rem;
+    font-family: 'open Sans', sans-serif;
+}
+select, option, textarea, .input-table{
+	outline: none;
+}
+select{
+	padding-top: 12.5px;
+	padding-bottom: 12.5px;
+	width: 90%;
+	border-bottom: 1px solid #d5d5d5;
+}
+select, button, .valide_pronos{
+	cursor: pointer;
+}
+textarea, select, .input-table, .header-match{
+	font-weight: 700;
+	font-size: 12px;
+}
+h4{
+	margin: 0px;
+}
+.blessure td{
+	padding: 5px 10px;
+	font-size:12px;
+	width: 15%;
+}
+.blessure th{
+	padding: 5px 10px;
+	text-align: left;
+	font-size: 12px;
+	font-weight: 700;
+}
+.blessure tr:nth-child(even){
+	background-color: 
+    background: #dcdcdc;
+    font: bold 12px Arial, Helvetica, sans-serif;
+}
+.header-match, .box-cote, .list-match, .information, .nav-infos{
+	display: flex;
+}
+.input-table{
+	padding: 3px;
+    width: 10%;
+    border: none;
+    border: 1px solid #d5d5d5;
+    border-top: none;
+    border-left: none;
+}
+.header-match{
+	justify-content: space-between; 
+	align-items: center;
+	color: white;
+	background-color: #00cc00; 
+	padding: 7px 5px;
+	cursor: pointer;
+}
+.two-team{
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.team-1,.team-2{
+	flex: 1;
+	text-align: center;
+}
+.box-cote{
+    background: #fff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.match{
+	padding-right: 5px;
+	width: 50%;
+	padding-top: 5px;
+}
+.match:nth-child(1){
+	padding-top:0px;
+}
+.match:nth-child(2){
+	padding-top:0px;
+}
+.match:nth-child(even){
+	padding-right:0px;
+}
+.list-match{
+	flex-wrap: wrap;
+}
+.table-2{
+	/*width: 1430px;
+	/*margin: auto;
+	margin-top: 30px;*/
+}
+.box-information{
+	background: white;
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 10px;
+	text-align: center;
+}
+.nav-infos{
+	justify-content: space-between;
+	height: 29px;
+	line-height: 17px;
+	margin-top: 0px;
+	background: #dcdcdc;
+	font-size: 13px;
+}
+.nav-infos a{
+	display: inline-block;
+	padding: 6px 10px;
+	color: black;
+	text-decoration: none;
+}
+/*ul li.active a{
+	background: #00cc00;
+	color: white;
+	font-weight: 700;
+}*/
+.other{
+    border: 1px solid #d5d5d5;
+    border-top: none;
+    border-bottom: none;
+}
+.class-ps{
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 13px;
+}
+.class-ps td{
+	padding: 3.9px 1px;
+	border-bottom: 1px solid #d9d9d9;
+}
+.class-ps th:first-child {
+	text-align: left;
+	padding-left: 1px;
+}
+.class-ps th{
+	background:#00cc00;
+    padding: 5px;
+    font: bold 12px Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.class-ps td + td {
+	border-left: 1px solid #d9d9d9;
+	text-align: center;
+	width: 50px;
+}
+.frm-container{
+	display: none;
+}
+.historique thead{
+	background:#00cc00;
+}
+.match-historique{
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	font-size: 13px;
+}
+.match-historique td:first-child{
+	padding: 5px 1px;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	color: white;
+}
+.match-historique td{
+	width: 25%;
+	word-break: break-all;
+}
+.victoire{
+	display: flex;
+    flex-flow: column nowrap;
+    cursor: pointer;
+    justify-self: center;
+    align-items: center;
+    align-self: center;
+    color: #fff;
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    border-radius: 2px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 19px;
+    position: relative;
+}
+
+@media (max-width: 1204px) {
+	.table-2{
+		width: 98%;
+	}
+}@media (max-width: 800px) {
+	.table-2{
+		width: 98%;
+	}
+	.match{
+		width: 100%;
+		padding-right: 0;
+	}
+	.class-ps td + td {
+		width: 20px;
+ 	}
+ 	.header-match {
+ 		font-size: 10px;
+ 	}
+}
